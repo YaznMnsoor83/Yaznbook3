@@ -1,4 +1,4 @@
-import '@/styles/globals.css'
+import '../styles/globals.css'
 import { SessionProvider, getSession, useSession } from "next-auth/react"
 import { AppContextProvider } from '../../contexts/AppContext'
 import { ToastContainer } from 'react-toastify';
